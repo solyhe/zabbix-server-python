@@ -1,0 +1,1 @@
+使用官方基于apline平台的zabbix+pgsql镜像基础，安装了python与modbus库
