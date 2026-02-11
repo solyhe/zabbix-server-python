@@ -1,6 +1,6 @@
 # 第一阶段：准备 Python 3.10 运行环境
 # 查询基础镜像版本docker run --rm zabbix/zabbix-server-pgsql:latest cat /etc/alpine-release
-# 3.10.19-alpine3.23
+# 查询到版本号3.23.2时，可直接使用对应版本python:3.10.19-alpine3.23
 FROM python:3.10-alpine AS python310
 
 # 第二阶段：使用 Alpine 版 Zabbix
